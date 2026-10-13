@@ -1,0 +1,19 @@
+{
+  "id": "next-portada",
+  "name": "Portada",
+  "framework": "next",
+  "design": "portada",
+  "tier": "free",
+  "description": "Next.js con portada, tags y modo oscuro.",
+  "previewUrl": "https://storia-templates.github.io/next-portada/",
+  "screenshots": [],
+  "features": [
+    "Modo oscuro",
+    "Tags",
+    "Imagen de portada",
+    "Export estático"
+  ],
+  "contentPath": "posts/{{ slug }}.md",
+  "frontmatterTemplate": "title: \"{{ title }}\"\ndate: \"{{ published_at_iso }}\"\nexcerpt: \"{{ excerpt }}\"\ntags: [{{ tags_yaml_array }}]\ncoverImage: \"{{ seo_image }}\"",
+  "pagesBuild": "workflow"
+}
