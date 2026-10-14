@@ -2,7 +2,7 @@
 
 Next.js con portada, tags y modo oscuro.
 
-Plantilla de blog de [Storia](https://github.com/storia-app). Demo: https://storia-templates.github.io/next-portada/
+Plantilla de blog de [Storia](https://github.com/storia-app). Demo: https://storia-app.github.io/next-portada/
 
 - Modo oscuro
 - Tags
